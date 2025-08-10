@@ -91,9 +91,8 @@ int main(int argc, char *argv[])
         qInstallMessageHandler(myMessageOutput);
         qDebug() << "==== NOOTKA LOG =======\n" << QDateTime::currentDateTime().toString();
     }
-#else
-    qputenv("QT_QUICK_CONTROLS_STYLE", "Basic"); // reset style environment var - other styles can cause crashes
 #endif
+    qputenv("QT_QUICK_CONTROLS_STYLE", "Basic"); // reset style environment var - other styles can cause crashes
 
     QElapsedTimer startElapsed;
     startElapsed.start();
