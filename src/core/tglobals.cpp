@@ -717,17 +717,17 @@ void Tglobals::loadSettings(QSettings *cfg)
     // In fact, values without group are stored under 'General' key, but using it explicitly makes group '%General' - different.
     // It is messy, so get rid of directly calling that group
     if (cfg->contains(QLatin1String("General/geometry"))) { // old config key
-        m_geometry = cfg->value(QStringLiteral("General/geometry"), QRect()).toRect();
+        m_geometry = cfg->value(QLatin1String("General/geometry"), QRect()).toRect();
         cfg->remove(QLatin1String("General/geometry")); // and remove it to grab new one next launch
     } else
-        m_geometry = cfg->value(QStringLiteral("geometry"), QRect()).toRect();
+        m_geometry = cfg->value(QLatin1String("geometry"), QRect()).toRect();
     if (m_geometry.width() < 720 || m_geometry.height() < 480) {
         m_geometry.setWidth(qMax(qRound(qApp->primaryScreen()->size().width() * 0.75), 720));
         m_geometry.setHeight(qMax(qRound(qApp->primaryScreen()->size().height() * 0.75), 480));
         m_geometry.setX((qApp->primaryScreen()->size().width() - m_geometry.width()) / 2);
         m_geometry.setY((qApp->primaryScreen()->size().height() - m_geometry.height()) / 2);
     }
-    m_guiScale = qBound(0.5, cfg->value(QStringLiteral("scale"), 1.0).toReal(), 1.5);
+    m_guiScale = qBound(0.5, cfg->value(QLatin1String("scale"), 1.0).toReal(), 1.5);
 
     cfg->beginGroup(QLatin1String("common"));
     isFirstRun = cfg->value(QStringLiteral("isFirstRun"), true).toBool();
