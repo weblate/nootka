@@ -223,8 +223,8 @@ TmobileMenu {
                                 }
 
                                 MultiEffect {
-                                    source: pix
-                                    anchors.fill: pix
+                                    source: paneImg
+                                    anchors.fill: paneImg
                                     colorization: 1.0
                                     colorizationColor: Qt.rgba(0, 0, 0, 0.5)
                                     visible: !enabled
