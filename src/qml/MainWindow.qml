@@ -78,11 +78,17 @@ ApplicationWindow {
     visibility: NOO.isAndroid() && GLOB.fullScreen() ? ApplicationWindow.FullScreen : ApplicationWindow.AutomaticVisibility
     width: GLOB.geometry.width
     height: GLOB.geometry.height
+    minimumWidth: NOO.isAndroid() ? Screen.width : 720
+    minimumHeight: NOO.isAndroid() ? Screen.height : 480
     x: GLOB.geometry.x
     y: GLOB.geometry.y
     header: mainMenu.toolBar
 
     Component.onCompleted: {
+        if (NOO.isAndroid()) {
+            nootkaWindow.width = Qt.binding(() => { return Screen.width; })
+            nootkaWindow.height = Qt.binding(() => { return Screen.height; })
+        }
         NOO.mainScore = score;
         checkSingleMode();
         if (GLOB.gotIt("soundInfo", true)) {

@@ -27,6 +27,16 @@ ApplicationWindow {
     height: GLOB.geometry.height
     x: GLOB.geometry.x
     y: GLOB.geometry.y
+    minimumWidth: NOO.isAndroid() ? Screen.width : 720
+    minimumHeight: NOO.isAndroid() ? Screen.height : 480
+
+    Component.onCompleted: {
+        if (NOO.isAndroid()) {
+            nootkaWindow.width = Qt.binding(() => { return Screen.width; })
+            nootkaWindow.height = Qt.binding(() => { return Screen.height; })
+        }
+    }
+
     onClosing: {
         GLOB.setInstrument(instrPage.getInstrument());
         if (clefPage)
