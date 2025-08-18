@@ -54,7 +54,6 @@ ToolButton {
     Image {
         id: pix
 
-        mipmap: true
         source: taction ? taction.icon : ""
         y: NOO.factor() / 4 + (GLOB.useAnimations && !pressed && hiHover && hovered ? (root.height - height - NOO.factor() / 4) / 2 : 0)
         height: factor * 8

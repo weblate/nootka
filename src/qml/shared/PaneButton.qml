@@ -37,7 +37,6 @@ AbstractButton {
             Image {
                 id: pix
 
-                mipmap: true
                 height: parent.height * 0.9
                 width: height * (sourceSize.width / sourceSize.height)
                 anchors.centerIn: parent

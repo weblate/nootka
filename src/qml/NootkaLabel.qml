@@ -28,7 +28,6 @@ Item {
     Image {
         id: logo
 
-        mipmap: true
         anchors.top: parent.Top
         source: NOO.pix("logo")
         height: nootkaLabel.height

@@ -30,7 +30,6 @@ ToolButton {
     Image {
         id: pix
 
-        mipmap: true
         anchors.centerIn: parent
         source: taction ? taction.icon : ""
         height: factor * 10
