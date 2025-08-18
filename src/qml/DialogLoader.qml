@@ -6,7 +6,6 @@ import Nootka 1.0
 import Nootka.Dialogs 1.0
 import QtQuick 2.12
 import QtQuick.Controls 2.12
-import QtQuick.Dialogs
 import QtQuick.Window 2.12
 
 Dialog {
@@ -28,14 +27,20 @@ Dialog {
     width: nootkaWindow.width
     height: nootkaWindow.height
     padding: 0
+    spacing: 0
 
     onPageChanged: {
         if (page > 0) {
-            if (NOO.isAndroid())
+            if (NOO.isAndroid()) {
                 mainMenu.drawer.interactive = false;
+                dialLoader.header.visible = false;
+                dialLoader.header.height = 0;
+                dialLoader.footer.height = 0;
+            }
 
-            dialLoader.width = nootkaWindow.width
-            dialLoader.height = nootkaWindow.height
+            dialLoader.width = NOO.isAndroid() ? Screen.width : nootkaWindow.width
+            dialLoader.height = NOO.isAndroid() ? Screen.height : nootkaWindow.height
+            console.log("dialLoader", dialLoader.width, dialLoader.height, nootkaWindow.width, nootkaWindow.height)
             open(); // do it it first, to initialize size at first time
             switch (page) {
             case Nootka.Settings:
@@ -61,7 +66,7 @@ Dialog {
                 break;
             case Nootka.Updater:
                 currentDialog = Qt.createComponent("qrc:/updater/TupdateSummary.qml").createObject(container);
-                dialLoader.title = currentDialog.titleText;
+                dialLoader.title = Noo.isAndroid() ? "" : currentDialog.titleText;
                 dialLoader.stdButtons = DialogButtonBox.Ok;
                 break;
             }
@@ -115,15 +120,16 @@ Dialog {
     }
 
     contentItem: Column {
-        width: dialLoader.width
-        height: dialLoader.height
+        id: mainColumn
+        width: dialLoader.width - dialLoader.implicitHeaderWidth - dialLoader.implicitFooterWidth
+        height: dialLoader.height - dialLoader.implicitHeaderHeight - dialLoader.implicitFooterHeight
         spacing: NOO.factor() / 2
 
         Rectangle {
             id: container
 
-            width: dialLoader.width
-            height: dialLoader.height - (box.visible ? NOO.factor() * 4 : 0) - header.height
+            width: mainColumn.width
+            height: mainColumn.height - (box.visible ? NOO.factor() * 4 : 0)
             color: activPal.window
         }
 
