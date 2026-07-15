@@ -5,22 +5,28 @@
     <name>AboutPage</name>
     <message>
         <source>Welcome on the board.&lt;br&gt;Nootka is an open source application to help you in learning (and in teaching) classical score notation.</source>
-        <translation type="unfinished"></translation>
+        <translation>欢迎使用。
+Nootka 是一款开源应用程序，旨在帮助您学习和教授古典乐谱记谱法。</translation>
     </message>
     <message>
         <source>See a &lt;a href=&quot;%1&quot;&gt;program site&lt;/a&gt; for more details and further releases.&lt;br&gt;Any bugs, suggestions, translations and so on, please report to: %2.&lt;br&gt;&lt;br&gt;with respects&lt;br&gt;Author</source>
-        <translation type="unfinished"></translation>
+        <translation>更多详情及后续版本请访问&lt;a href=&quot;%1&quot;&gt;程序网站&lt;/a&gt;。
+如有任何问题、建议、翻译等，请反馈至：%2。
+
+谨上
+作者</translation>
     </message>
     <message>
         <source>This is a beta version and may contain bugs or behave in unexpected ways. Also, it has unfinished features.&lt;br&gt;In spite of that, you are welcome to try it!</source>
-        <translation type="unfinished"></translation>
+        <translation>这是一个测试版本，可能包含缺陷或出现意外情况。同时，它还有未完成的功能。
+尽管如此，欢迎您试用！</translation>
     </message>
 </context>
 <context>
     <name>AccidsPage</name>
     <message>
         <source>accidentals</source>
-        <translation type="unfinished"></translation>
+        <translation>临时变音记号</translation>
     </message>
     <message>
         <source># - sharps</source>
@@ -36,172 +42,172 @@
     </message>
     <message>
         <source>force using appropriate accidental</source>
-        <translation type="unfinished"></translation>
+        <translation>强制使用恰当的临时变音记号</translation>
     </message>
     <message>
         <source>single key</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">单个调号</translation>
     </message>
     <message>
         <source>range of keys</source>
-        <translation type="unfinished"></translation>
+        <translation>调号范围</translation>
     </message>
     <message>
         <source>Select a key signature. Appropriate accidentals used in this level will be selected automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">选择一个调号。此关卡中使用的相应临时变音记号将被自动选择。</translation>
     </message>
     <message>
         <source>select a key signature manually</source>
-        <translation type="unfinished"></translation>
+        <translation>手动选择调号</translation>
     </message>
     <message>
         <source>if checked, in exam user have to select a key signature, otherwise it is shown by application.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">若勾选此项，在考试中用户必须自行选择一个调号；否则，调号将由应用程序显示。</translation>
     </message>
     <message>
         <source>Only notes from current key signature are taken. If key signature is disabled accidentals are not used.</source>
-        <translation type="unfinished"></translation>
+        <translation>仅使用当前调号内的音符。若调号被禁用，则不使用临时变音记号。</translation>
     </message>
     <message>
         <source>notes in current key signature only</source>
-        <translation type="unfinished"></translation>
+        <translation>仅当前调号内音符</translation>
     </message>
     <message>
         <source>Sharps will be used in questions and answers. It has to be checked, if keys with sharps are used.</source>
-        <translation type="unfinished"></translation>
+        <translation>在题目和答案中将使用升号。若使用带升号的调，则必须勾选此项。</translation>
     </message>
     <message>
         <source>Flats will be used in questions and answers. It has to be checked, if keys with flats are used.</source>
-        <translation type="unfinished"></translation>
+        <translation>在题目和答案中将使用降号。若使用带降号的调，则必须勾选此项。</translation>
     </message>
     <message>
         <source>if checked, it is possible to select a note with given accidental only.</source>
-        <translation type="unfinished"></translation>
+        <translation>若勾选此项，则只能选择带有指定临时变音记号的音符。</translation>
     </message>
     <message>
         <source>Only one, selected key signature for whole exam.</source>
-        <translation type="unfinished"></translation>
+        <translation>整场考试仅使用一个选定的调号。</translation>
     </message>
     <message>
         <source>Random key signature from selected range.</source>
-        <translation type="unfinished"></translation>
+        <translation>从选定范围内随机选择调号</translation>
     </message>
 </context>
 <context>
     <name>AnalyzeDialog</name>
     <message>
         <source>linear chart</source>
-        <translation type="unfinished"></translation>
+        <translation>折线图</translation>
     </message>
     <message>
         <source>bar chart</source>
-        <translation type="unfinished"></translation>
+        <translation>柱状图</translation>
     </message>
     <message>
         <source>Y value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Y值:</translation>
     </message>
     <message>
         <source>ordered by:</source>
         <comment>Keep a proper form - whole sentence will be: ordered by: question number, key signature, etc...</comment>
-        <translation type="unfinished"></translation>
+        <translation>排序方式：</translation>
     </message>
     <message>
         <source>student name:</source>
-        <translation type="unfinished"></translation>
+        <translation>学生名称:</translation>
     </message>
     <message>
         <source>level:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">级别：</translation>
     </message>
     <message>
         <source>Question number</source>
-        <translation type="unfinished"></translation>
+        <translation>题号</translation>
     </message>
     <message>
         <source>Analyze</source>
-        <translation type="unfinished"></translation>
+        <translation>分析</translation>
     </message>
     <message>
         <source>Press %1 button to select an exam from a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>按 %1 按钮从文件中选择一场考试。</translation>
     </message>
     <message>
         <source>Use %1 + mouse wheel or %2 buttons to zoom a chart.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用 %1 + 鼠标滚轮或 %2 按钮来缩放图表。</translation>
     </message>
     <message>
         <source>Click and Drag the cursor to move the chart.</source>
-        <translation type="unfinished"></translation>
+        <translation>点击并拖动光标即可移动图表。</translation>
     </message>
     <message>
         <source>Settings of a chart</source>
-        <translation type="unfinished"></translation>
+        <translation>图表设置</translation>
     </message>
     <message>
         <source>Questions number</source>
-        <translation type="unfinished"></translation>
+        <translation>题数</translation>
     </message>
     <message>
         <source>Attempts number</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">答题次数</translation>
     </message>
     <message>
         <source>Preparation time</source>
-        <translation type="unfinished"></translation>
+        <translation>准备时间</translation>
     </message>
     <message>
         <source>Played number</source>
-        <translation type="unfinished"></translation>
+        <translation>已演奏题数</translation>
     </message>
     <message>
         <source>Recent exercise on level</source>
-        <translation type="unfinished"></translation>
+        <translation>级别上的最近练习</translation>
     </message>
     <message>
         <source>include time of wrong answers to average</source>
-        <translation type="unfinished"></translation>
+        <translation>包括错误答案的平均时间</translation>
     </message>
     <message>
         <source>show wrong answers separately</source>
-        <translation type="unfinished"></translation>
+        <translation>单独列出错误的答复</translation>
     </message>
     <message>
         <source>question number</source>
         <comment>see comment in &apos;ordered by:&apos; entry</comment>
-        <translation type="unfinished"></translation>
+        <translation>题号</translation>
     </message>
     <message>
         <source>note pitch</source>
-        <translation type="unfinished"></translation>
+        <translation>音高</translation>
     </message>
     <message>
         <source>fret number</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">品数</translation>
     </message>
     <message>
         <source>accidentals</source>
-        <translation type="unfinished"></translation>
+        <translation>临时变音记号</translation>
     </message>
     <message>
         <source>key signature</source>
-        <translation type="unfinished"></translation>
+        <translation>调号</translation>
     </message>
     <message>
         <source>mistake</source>
-        <translation type="unfinished"></translation>
+        <translation>错误</translation>
     </message>
     <message>
         <source>question type</source>
-        <translation type="unfinished"></translation>
+        <translation>题目类型</translation>
     </message>
     <message>
         <source>Analysis of exercise</source>
-        <translation type="unfinished"></translation>
+        <translation>练习分析</translation>
     </message>
     <message>
         <source>Analysis of exam results</source>
-        <translation type="unfinished"></translation>
+        <translation>考试结果分析</translation>
     </message>
 </context>
 <context>
@@ -209,85 +215,85 @@
     <message>
         <source>Good answer!</source>
         <comment>or &apos;Good!&apos; or &apos;Correct!&apos; would be somewhat more specific than merely &apos;It was good!&apos; (previous version) &apos;It&apos; in this case certainly does refer to a specific thing, which is in this case the answer, but it might be momentarily confused with some other specific thing, such as a shoe or a crocodile, or the wind on one&apos;s back. I know that&apos;s probably confusing, but the implied subject of &apos;Correct! is in a certain sense much more specific than a mere &apos;It&apos; and is more certain to refer to the answer.</comment>
-        <translation type="unfinished"></translation>
+        <translation>回答正确！</translation>
     </message>
     <message>
         <source>Wrong answer!</source>
-        <translation type="unfinished"></translation>
+        <translation>回答错误！</translation>
     </message>
     <message>
         <source>Not bad, but:</source>
         <comment>&apos;Not so bad, but:&apos; is perfectly clear, but a little less common in US English. To be a bit shorter, it might just as well be, &apos;Not bad, but:&apos;</comment>
-        <translation type="unfinished"></translation>
+        <translation>不错，但是：</translation>
     </message>
     <message>
         <source>wrong string</source>
-        <translation type="unfinished"></translation>
+        <translation>错误的琴弦</translation>
     </message>
     <message>
         <source>little valid notes</source>
         <comment>the amount of correct notes in an answer is little</comment>
-        <translation type="unfinished"></translation>
+        <translation>有效音符数少</translation>
     </message>
     <message>
         <source>poor effectiveness</source>
-        <translation type="unfinished"></translation>
+        <translation>有效率低</translation>
     </message>
     <message>
         <source>wrong accidental</source>
-        <translation type="unfinished"></translation>
+        <translation>错误的临时变音记号</translation>
     </message>
     <message>
         <source>wrong key signature</source>
-        <translation type="unfinished"></translation>
+        <translation>调号错误</translation>
     </message>
     <message>
         <source>wrong octave</source>
-        <translation type="unfinished"></translation>
+        <translation>八度错误</translation>
     </message>
     <message>
         <source>out of tune</source>
-        <translation type="unfinished"></translation>
+        <translation>音不准</translation>
     </message>
     <message>
         <source>correct notes</source>
-        <translation type="unfinished"></translation>
+        <translation>正确的音符</translation>
     </message>
     <message>
         <source>wrong notes</source>
-        <translation type="unfinished"></translation>
+        <translation>错误的音符</translation>
     </message>
     <message>
         <source>wrong accidentals</source>
-        <translation type="unfinished"></translation>
+        <translation>错误的临时变音记号</translation>
     </message>
     <message>
         <source>wrong octaves</source>
-        <translation type="unfinished"></translation>
+        <translation>错误的八度</translation>
     </message>
     <message>
         <source>correct key signatures</source>
-        <translation type="unfinished"></translation>
+        <translation>正确的调号</translation>
     </message>
     <message>
         <source>wrong key signatures</source>
-        <translation type="unfinished"></translation>
+        <translation>错误的调号</translation>
     </message>
     <message>
         <source>correct positions</source>
-        <translation type="unfinished"></translation>
+        <translation>正确把位</translation>
     </message>
     <message>
         <source>wrong positions</source>
-        <translation type="unfinished"></translation>
+        <translation>错误的把位</translation>
     </message>
     <message>
         <source>wrong strings</source>
-        <translation type="unfinished"></translation>
+        <translation>错误的琴弦</translation>
     </message>
     <message>
         <source>incorrect rhythm</source>
-        <translation type="unfinished"></translation>
+        <translation>节奏错误</translation>
     </message>
 </context>
 <context>
@@ -295,26 +301,26 @@
     <message>
         <source>Bellows is opening.</source>
         <comment>Check please what bandoneon/accordion bellows does in your language. It may be more sophisticated word than &apos;opening&apos;</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">风箱正在打开。</translation>
     </message>
     <message>
         <source>Bellows is closing.</source>
         <comment>Check please what bandoneon/accordion bellows does in your language. It may be more sophisticated word than &apos;closing&apos;</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">风箱正在关闭。</translation>
     </message>
 </context>
 <context>
     <name>Certificate</name>
     <message>
         <source>Stop exam</source>
-        <translation type="unfinished"></translation>
+        <translation>停止考试</translation>
     </message>
 </context>
 <context>
     <name>ChartDrawer</name>
     <message>
         <source>keep opened</source>
-        <translation type="unfinished"></translation>
+        <translation>保持打开</translation>
     </message>
 </context>
 <context>
@@ -327,120 +333,123 @@
     <message>
         <source>played</source>
         <comment>a melody was played (and number follows)</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">已演奏</translation>
     </message>
     <message>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>时间</translation>
     </message>
 </context>
 <context>
     <name>DivideMelody</name>
     <message>
         <source>Divide by selected bars number</source>
-        <translation type="unfinished"></translation>
+        <translation>按所选小节数划分</translation>
     </message>
 </context>
 <context>
     <name>EndOnTonicTile</name>
     <message>
         <source>Determines the last note of a melody.&lt;br&gt;When set, melody will be finished on tonic note in actual key signature.</source>
-        <translation type="unfinished"></translation>
+        <translation>决定旋律的最后一个音。
+开启后，旋律将以当前调号的主音结束。</translation>
     </message>
     <message>
         <source>Melody ends on tonic note</source>
-        <translation type="unfinished"></translation>
+        <translation>旋律结束于主音</translation>
     </message>
 </context>
 <context>
     <name>ExamPage</name>
     <message>
         <source>Default name for every new exam or exercise.</source>
-        <translation type="unfinished"></translation>
+        <translation>每个新建考试或练习的默认名称。</translation>
     </message>
     <message>
         <source>When you will make mistake, the program will show you automatically how a correct answer should be.</source>
-        <translation type="unfinished"></translation>
+        <translation>当您犯错时，程序会自动展示正确答案应该是什么样的。</translation>
     </message>
     <message>
         <source>color of questions</source>
-        <translation type="unfinished"></translation>
+        <translation>题目颜色</translation>
     </message>
     <message>
         <source>color of answers</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">答复颜色</translation>
     </message>
     <message>
         <source>color of &apos;not bad&apos; answers</source>
-        <translation type="unfinished"></translation>
+        <translation>“不错”类答案的颜色</translation>
     </message>
     <message>
         <source>suggest an exam</source>
-        <translation type="unfinished"></translation>
+        <translation>建议考试</translation>
     </message>
     <message>
         <source>Watch exercising progress and when it is going well, suggest to start an exam on the exercise level.</source>
-        <translation type="unfinished"></translation>
+        <translation>跟踪练习进度，当练习进展顺利时，建议在该练习级别上开始一场考试。</translation>
     </message>
     <message>
         <source>wait for correct note</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">等待演奏正确的音符</translation>
     </message>
     <message>
         <source>When melody is played from score, every note is checked immediately and next note can be played only when the previous one was correct. When unset, notes are checked only after playing the last one (or check button was clicked).</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">当从乐谱演奏旋律时，每个音符会被立即检查，只有前一个音符正确才能演奏下一个音符。若取消此设置，则仅在演奏完最后一个音符（或点击检查按钮）后，才对所有音符进行检查。</translation>
     </message>
     <message>
         <source>show wrong played</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">显示错音</translation>
     </message>
     <message>
         <source>When answer was played (or sung) and it was wrong also the detected wrong note is shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>当答案被演奏（或演唱）后，如果答案错误，检测到的错误音符也会被显示出来。</translation>
     </message>
     <message>
         <source>extra names</source>
-        <translation type="unfinished"></translation>
+        <translation>额外名称</translation>
     </message>
     <message>
         <source>To improve association of note in the score or position on the instrument to note name, Nootka will display names even if neither question nor answer is related to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>为了加强乐谱中的音符或乐器上的位置与音名之间的关联，即使题目或答案均不直接涉及音名，Nootka 仍会显示音名。</translation>
     </message>
     <message>
         <source>repeat a question</source>
-        <translation type="unfinished"></translation>
+        <translation>重复此题</translation>
     </message>
     <message>
         <source>A question with an incorrect answer will be asked once again.</source>
-        <translation type="unfinished"></translation>
+        <translation>答错的题目将会被再次提问一次。</translation>
     </message>
     <message>
         <source>close without confirm</source>
-        <translation type="unfinished"></translation>
+        <translation>无需确认直接关闭</translation>
     </message>
     <message>
         <source>If checked, an application will not ask to answer pending question just mark it as wrong, save an exam to file (in directory: %1) and close itself without any confirmation needed.</source>
-        <translation type="unfinished"></translation>
+        <translation>若勾选此项，应用程序将不会要求回答待处理的题目，而是直接将其标记为错误，并将考试保存到文件（目录为：%1），随后无需任何确认即自行关闭。</translation>
     </message>
     <message>
         <source>Experts mode</source>
-        <translation type="unfinished"></translation>
+        <translation>专家模式</translation>
     </message>
     <message>
         <source>You are about to enter expert mode.&lt;br&gt; In this mode you don&apos;t need to confirm every answer,&lt;br&gt;&lt;b&gt;but remember the following:</source>
-        <translation type="unfinished"></translation>
+        <translation>您即将进入专家模式。
+在此模式下，您无需逐一确认每个答案，
+&lt;b&gt;但请记住以下要点：&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Selecting a note on the score or a position on the fingerboard invokes automatic checking of your answer, so select a key signature first, if required.</source>
-        <translation type="unfinished"></translation>
+        <translation>在乐谱上选定一个音符或在指板上选定一个位置，都会触发对您答案的自动检查，因此请先选择调号（如果需要的话）。</translation>
     </message>
     <message>
         <source>When an answer is the name of a note &lt;b&gt;first select a proper accidental and an octave&lt;/b&gt; and then click a note button - this automatically invokes checking.</source>
-        <translation type="unfinished"></translation>
+        <translation>当答案是音符的音名时，&lt;b&gt;请先选择合适的临时变音记号和八度&lt;/b&gt;，然后点击音符按钮——此操作会自动触发检查。</translation>
     </message>
     <message>
         <source>When you have to play a note as an answer - the first detected sound will be taken, so be sure that your input device captures exactly what you want.</source>
-        <translation type="unfinished"></translation>
+        <translation>当您需要演奏一个音符作为答案时——系统将采纳第一个检测到的声音，因此请确保您的输入设备准确捕捉到您想要演奏的内容。</translation>
     </message>
     <message>
         <source>When the last note of question that is a melody was played - checking starts.</source>
@@ -451,7 +460,7 @@
     <name>ExamSummary</name>
     <message>
         <source>Analyze</source>
-        <translation type="unfinished"></translation>
+        <translation>分析</translation>
     </message>
     <message>
         <source>Pass an exam</source>
@@ -466,7 +475,7 @@
     </message>
     <message>
         <source>Application for learning musical score notation</source>
-        <translation type="unfinished"></translation>
+        <translation>用于学习识读乐谱的应用程序</translation>
     </message>
     <message>
         <source>Nootka level file</source>
@@ -510,7 +519,7 @@
     </message>
     <message>
         <source>Check for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>正在检查更新</translation>
     </message>
     <message>
         <source>Restore all default settings</source>
@@ -518,7 +527,8 @@
     </message>
     <message>
         <source>All settings will be reset to their default values!&lt;br&gt;Nootka will start up with the first-run wizard.</source>
-        <translation type="unfinished"></translation>
+        <translation>所有设置将重置为默认值！
+Nootka 将以首次运行向导启动。</translation>
     </message>
 </context>
 <context>
@@ -578,11 +588,11 @@
     </message>
     <message>
         <source>But you can select here some voice or a part and import it to the application.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">但你可以在这里选择某个声部或某个片段，并将其导入到应用程序中。</translation>
     </message>
     <message>
         <source>Before that, you can transform (split, transpose and etc.) score parts and also select which note of a chord will be imported.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">在此之前，您可以对乐谱声部进行变换（拆分、移调等），还可以选择和弦中的哪个音符将被导入。</translation>
     </message>
     <message>
         <source>Voices are divided automatically when meter, clef or key changes.</source>
@@ -637,7 +647,7 @@
     </message>
     <message>
         <source>Choose which accidentals will be shown on the staff.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">选择要在谱表上显示哪些临时变音记号。</translation>
     </message>
     <message>
         <source>show all possibilities of a note</source>
@@ -645,7 +655,8 @@
     </message>
     <message>
         <source>As you know, the same note can be played in several places on the fingerboard.&lt;br&gt;If checked, all of them will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">如你所知，同一个音可以在指板上的多个位置演奏。
+若勾选此项，则会显示所有位置。</translation>
     </message>
     <message>
         <source>marked frets</source>
@@ -701,7 +712,7 @@
     </message>
     <message>
         <source>Accidentals</source>
-        <translation type="unfinished"></translation>
+        <translation>临时变音记号</translation>
     </message>
     <message>
         <source>Range</source>
@@ -709,11 +720,11 @@
     </message>
     <message>
         <source>Check</source>
-        <translation type="unfinished"></translation>
+        <translation>核对</translation>
     </message>
     <message>
         <source>Answers</source>
-        <translation type="unfinished"></translation>
+        <translation>回复</translation>
     </message>
 </context>
 <context>
@@ -840,7 +851,7 @@
     </message>
     <message>
         <source>arpeggiate chords and insert all notes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">将和弦分解为琶音并插入所有音符</translation>
     </message>
     <message>
         <source>Select one of the notes</source>
@@ -848,7 +859,7 @@
     </message>
     <message>
         <source>Arpeggiate chord</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">琶音和弦</translation>
     </message>
     <message>
         <source>This fragment contains elements of musical score which are not supported by Nootka!</source>
@@ -860,7 +871,8 @@
     <message>
         <source>Add here melodies from Music XML files.
 But better keep them short, so divide them first in some external software.</source>
-        <translation type="unfinished"></translation>
+        <translation>在这里添加音乐XML文件中的旋律。
+但最好保持简短,所以先在一些外部软件中进行分割。</translation>
     </message>
 </context>
 <context>
@@ -981,7 +993,7 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>b</source>
         <comment>Give here a name of 7-th note preferred in your country. But only &apos;b&apos; or &apos;h&apos; not &apos;si&apos; or something worst...</comment>
-        <translation type="unfinished"></translation>
+        <translation>b</translation>
     </message>
     <message>
         <source>letters</source>
@@ -1038,7 +1050,7 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>Cannot save exam file:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>无法保存文件 %1。</translation>
     </message>
     <message>
         <source>master of masters</source>
@@ -1046,7 +1058,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>All possible options are turned on</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">所有可用选项均已开启</translation>
     </message>
     <message>
         <source>major</source>
@@ -1070,7 +1082,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>answers</source>
-        <translation type="unfinished"></translation>
+        <translation>回答</translation>
     </message>
     <message>
         <source>question</source>
@@ -1082,7 +1094,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>answer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">答案</translation>
     </message>
 </context>
 <context>
@@ -1144,11 +1156,11 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>adjust fret range</source>
-        <translation type="unfinished"></translation>
+        <translation>调整品位范围</translation>
     </message>
     <message>
         <source>Adjust fret range in a level to currently selected note range</source>
-        <translation type="unfinished"></translation>
+        <translation>将某一层级的品位范围调整为当前所选音符范围</translation>
     </message>
     <message>
         <source>fret range:</source>
@@ -1164,11 +1176,11 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>adjust note range</source>
-        <translation type="unfinished"></translation>
+        <translation>调整音符范围</translation>
     </message>
     <message>
         <source>Adjust note range in a level to currently selected fret range</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">将某一层级的音符范围调整为当前所选品位范围</translation>
     </message>
     <message>
         <source>Uncheck strings if you want to skip them in an exam.</source>
@@ -1176,7 +1188,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>available strings:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">可用琴弦：</translation>
     </message>
 </context>
 <context>
@@ -1187,7 +1199,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Also delete level file:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">同时删除关卡文件：</translation>
     </message>
 </context>
 <context>
@@ -1213,7 +1225,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>basic rhythms</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">基础节奏型</translation>
     </message>
     <message>
         <source>rhythms with dots</source>
@@ -1251,7 +1263,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Clefs</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">谱号</translation>
     </message>
     <message>
         <source>Notes naming</source>
@@ -1359,26 +1371,30 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>&lt;b&gt;double flat&lt;/b&gt; - lowers a note by two semitones (whole tone).&lt;br&gt;On the guitar it is two frets down.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;b&gt;重降号&lt;/b&gt; — 将音符降低两个半音（一个全音）。
+在吉他上，即向低把位移动两个品位。</translation>
     </message>
     <message>
         <source>&lt;b&gt;flat&lt;/b&gt; - lowers a note by a half tone (semitone).&lt;br&gt;On the guitar it is one fret down.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;b&gt;降号&lt;/b&gt; — 将音符降低半音。
+在吉他上，即向低把位移动一个品位。</translation>
     </message>
     <message>
         <source>&lt;b&gt;sharp&lt;/b&gt; - raises a note by a half tone (semitone).&lt;br&gt;On the guitar it is one fret up.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;b&gt;升号&lt;/b&gt; — 将音符升高半音。
+在吉他上，即向高把位移动一个品位。</translation>
     </message>
     <message>
         <source>&lt;b&gt;double sharp&lt;/b&gt; - raises a note by two semitones (whole tone).&lt;br&gt;On the guitar it is two frets up.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;b&gt;重升号&lt;/b&gt; — 将音符升高两个半音（一个全音）。
+在吉他上，即向高把位移动两个品位。</translation>
     </message>
 </context>
 <context>
     <name>Select7note</name>
     <message>
         <source>7th note is:</source>
-        <translation type="unfinished"></translation>
+        <translation>第七音符:</translation>
     </message>
 </context>
 <context>
@@ -1389,15 +1405,15 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Be sure your system is able to record what are you playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>请确保您的系统能够录制您正在演奏的内容。</translation>
     </message>
     <message>
         <source>Adjust minimal note volume a little below of your input volume level.</source>
-        <translation type="unfinished"></translation>
+        <translation>将最小音符音量调节至略低于输入音量电平。</translation>
     </message>
     <message>
         <source>Aim to play loud and clear and avoid dirty sounds specific to your instrument.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">演奏得响亮清晰，避免乐器本身产生的杂音</translation>
     </message>
     <message>
         <source>Nootka recognizes played sounds and theirs duration (rhythms). But to achieve accurate results it requires some preparations and a little patience. Here are some clues:</source>
@@ -1432,7 +1448,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Be sure your input device (microphone, webcam, instrument, etc.) is plugged in, properly configured, and working.</source>
-        <translation type="unfinished"></translation>
+        <translation>请确保您的输入设备（麦克风、摄像头、乐器等）已正确连接、配置并正常工作。</translation>
     </message>
     <message>
         <source>input device</source>
@@ -1472,7 +1488,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">进阶</translation>
     </message>
     <message>
         <source>pitch detection mode</source>
@@ -1496,7 +1512,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>All sounds captured by audio input will be forwarded directly to output device.</source>
-        <translation type="unfinished"></translation>
+        <translation>所有通过音频输入捕捉到的声音将直接转发至输出设备。</translation>
     </message>
     <message>
         <source>forward input to output</source>
@@ -1590,11 +1606,11 @@ But better keep them short, so divide them first in some external software.</sou
     <name>TaboutNootka</name>
     <message>
         <source>About Nootka</source>
-        <translation type="unfinished"></translation>
+        <translation>关于 Nootka</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>关于</translation>
     </message>
     <message>
         <source>License</source>
@@ -1606,15 +1622,15 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Changes</source>
-        <translation type="unfinished"></translation>
+        <translation>变化</translation>
     </message>
     <message>
         <source>Code</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">源代码</translation>
     </message>
     <message>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>声音</translation>
     </message>
     <message>
         <source>editing and/or recording of samples:</source>
@@ -1638,7 +1654,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Authors</source>
-        <translation type="unfinished"></translation>
+        <translation>作者</translation>
     </message>
     <message>
         <source>Donors</source>
@@ -1678,7 +1694,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>bass</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">低音</translation>
     </message>
     <message>
         <source>alto</source>
@@ -1694,19 +1710,19 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>clef G</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">G谱号</translation>
     </message>
     <message>
         <source>clef G dropped octave down</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">高音谱号下方八度</translation>
     </message>
     <message>
         <source>clef F</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">F谱号</translation>
     </message>
     <message>
         <source>clef C</source>
-        <translation type="unfinished"></translation>
+        <translation>C谱号</translation>
     </message>
     <message>
         <source>treble and bass clefs</source>
@@ -1718,7 +1734,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Clef for bass guitar and double bass, also used for cello and trombone.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">用贝斯和低音提琴的谱号，也用于大提琴和长号。</translation>
     </message>
     <message>
         <source>percussion clef</source>
@@ -1734,7 +1750,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Clef for guitars (classical, electric and so)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">吉他谱号（适用于古典吉他、电吉他等）</translation>
     </message>
     <message>
         <source>Sometimes it is called clef for viola and mostly used for this instrument.</source>
@@ -1757,7 +1773,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>beats per minute</source>
-        <translation type="unfinished"></translation>
+        <translation>每分钟</translation>
     </message>
     <message>
         <source>Mouse wheel changes tempo promptly (also with %1 key). Click for more options.</source>
@@ -1765,7 +1781,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Audible metronome</source>
-        <translation type="unfinished"></translation>
+        <translation>节拍器声音</translation>
     </message>
     <message>
         <source>Use earphones! Otherwise ticking will disturb proper pitch detection!</source>
@@ -1815,7 +1831,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>attempt</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">答题</translation>
     </message>
     <message numerus="yes">
         <source>%n attempt(s)</source>
@@ -1842,11 +1858,11 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>as note on the staff</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">以谱表音符的形式</translation>
     </message>
     <message>
         <source>as note name</source>
-        <translation type="unfinished"></translation>
+        <translation>简称表</translation>
     </message>
     <message>
         <source>on instrument</source>
@@ -1854,7 +1870,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>as played sound</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">以演奏声音的形式</translation>
     </message>
     <message>
         <source>Let&apos;s start!</source>
@@ -1865,7 +1881,7 @@ But better keep them short, so divide them first in some external software.</sou
     <name>TexamExecutor</name>
     <message>
         <source>&lt;b&gt;Exam file seems to be corrupted&lt;/b&gt;&lt;br&gt;Better start new exam on the same level</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;b&gt;考试文件似乎已损坏&lt;/b&gt;建议在同一级别重新开始新的考试。</translation>
     </message>
     <message>
         <source>File: %1 
@@ -1925,7 +1941,8 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>check answer
 (enter %1)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">检查答案
+(enter %1)</translation>
     </message>
     <message>
         <source>correct answer
@@ -1985,7 +2002,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source> Briefly: Nootka give you a question and you give an answer...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> Nootka 向你提问，你来回答……</translation>
     </message>
     <message>
         <source>Questions are marked with this color and &quot;?&quot; mark.</source>
@@ -2033,7 +2050,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>check answers without requiring confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">无需确认，直接检查答案</translation>
     </message>
     <message>
         <source>correct mistakes (exercises only)</source>
@@ -2041,7 +2058,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>ask next question automatically</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">下一个问题自动提出</translation>
     </message>
     <message>
         <source>or right mouse button</source>
@@ -2049,7 +2066,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>click %1 button</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">点击 %1 按钮</translation>
     </message>
     <message>
         <source>To get question</source>
@@ -2073,7 +2090,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Click %1 button to stop.</source>
-        <translation type="unfinished"></translation>
+        <translation>点击 %1 按钮停止。</translation>
     </message>
     <message>
         <source>tap %1</source>
@@ -2083,7 +2100,7 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>Click %1 to stop.</source>
         <comment>click &lt;icon-image&gt; to stop (exam or exercise)</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">点击 %1 停止。</translation>
     </message>
 </context>
 <context>
@@ -2165,7 +2182,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Average time taken to answer</source>
-        <translation type="unfinished"></translation>
+        <translation>平均答复时间</translation>
     </message>
     <message>
         <source>[in seconds]</source>
@@ -2201,7 +2218,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Answered questions</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">已作答的问题</translation>
     </message>
     <message>
         <source>Unanswered questions</source>
@@ -2222,7 +2239,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Answer time</source>
-        <translation type="unfinished"></translation>
+        <translation>答复时间</translation>
     </message>
     <message>
         <source>Exam time</source>
@@ -2299,7 +2316,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>ascending - you are thinking too much</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">上行 — 你想得太多了。</translation>
     </message>
 </context>
 <context>
@@ -2338,7 +2355,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Classical Guitar</source>
-        <translation type="unfinished"></translation>
+        <translation>古典吉他</translation>
     </message>
     <message>
         <source>Electric Guitar</source>
@@ -2346,7 +2363,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Bass Guitar</source>
-        <translation type="unfinished"></translation>
+        <translation>贝斯</translation>
     </message>
     <message>
         <source>Piano</source>
@@ -2354,11 +2371,11 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Bandoneon</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">班多钮手风琴</translation>
     </message>
     <message>
         <source>Alt Saxophone</source>
-        <translation type="unfinished"></translation>
+        <translation>中音萨克斯</translation>
     </message>
     <message>
         <source>Tenor Saxophone</source>
@@ -2403,7 +2420,7 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>cents</source>
         <comment>unit of measure used for musical intervals. This text always is used in context: &apos; ± [5, 10, 20, 30] cents &apos;</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">百分比</translation>
     </message>
 </context>
 <context>
@@ -2418,7 +2435,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Bass clef</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">低音谱号</translation>
     </message>
     <message>
         <source>Play a short and simple melody in bass clef</source>
@@ -2442,7 +2459,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>C-major scale</source>
-        <translation type="unfinished"></translation>
+        <translation>C 大调音阶</translation>
     </message>
     <message>
         <source>In first position. No accidentals, no sound.&lt;br&gt;Octave required.</source>
@@ -2454,7 +2471,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>All to V fret</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">全部移至第 V 品</translation>
     </message>
     <message>
         <source>Ear training</source>
@@ -2498,7 +2515,8 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>All chromatic notes till 5th fret, no sound.&lt;br&gt;Without double accidentals. Key signatures: C, G, D, A</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">所有半音音阶（按到第5品为止），不出声。
+不含重升/重降号。调号：C、G、D、A。</translation>
     </message>
     <message>
         <source>Take your instrument and just play...&lt;br&gt;Keys till 4 accidentals and double accidentals enabled!</source>
@@ -2521,7 +2539,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Cannot open file for writing</source>
-        <translation type="unfinished"></translation>
+        <translation>无法打开文件进行写入.</translation>
     </message>
     <message>
         <source>Level validation</source>
@@ -2600,7 +2618,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Clef</source>
-        <translation type="unfinished"></translation>
+        <translation>谱号</translation>
     </message>
     <message>
         <source>key signature:</source>
@@ -2629,7 +2647,9 @@ But better keep them short, so divide them first in some external software.</sou
         <source>Cannot open file
  %1 
  for reading</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">无法打开文件
+  %1 
+  进行读取</translation>
     </message>
     <message>
         <source>No file name specified</source>
@@ -2755,7 +2775,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Additional accidentals</source>
-        <translation type="unfinished"></translation>
+        <translation>附加临时变音记号</translation>
     </message>
     <message>
         <source>Shows accidentals from the key signature also next to a note. &lt;b&gt;WARING! It never occurs in real scores - use it only for theoretical purposes.&lt;/b&gt;</source>
@@ -2840,7 +2860,7 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>Click to see what &lt;i&gt;octaves&lt;/i&gt; are at &quot;http://en.wikipedia.org/wiki/Octave&quot;</source>
         <comment>You can change this link to article in your language, but please KEEP QUOTATION MARKS AROUND THAT ADDRESS!</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">点击以查看什么是&lt;i&gt;八度&lt;/i&gt;，网址： &quot;http://en.wikipedia.org/wiki/Octave&quot;</translation>
     </message>
     <message numerus="yes">
         <source>The octave &lt;b&gt;%n&lt;/b&gt; in International Pitch Notation</source>
@@ -2879,7 +2899,7 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>As a witness to this accomplishment,&lt;br&gt;we hereby award this certificate on &lt;b&gt;[DATE]&lt;/b&gt;.</source>
         <comment>Under results - single indent</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">作为这一成就的见证者,&lt;br&gt;we特此将这一证书授予&lt;b&gt;[DATE]&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>&lt;small&gt;&lt;i&gt;examining board:&lt;/i&gt;&lt;br&gt;&lt;i&gt;president:&lt;/i&gt;&lt;b&gt; Nootka itself&lt;/b&gt;&lt;br&gt;&lt;b&gt;professor Processor&lt;/b&gt; &amp;amp;&lt;br&gt;&lt;b&gt;Mrs RAM&lt;/b&gt; his assistant&lt;br&gt;&lt;i&gt;secretary:&lt;/i&gt;&lt;b&gt; Mr Disk&lt;/b&gt;&lt;/small&gt;</source>
@@ -2912,7 +2932,7 @@ But better keep them short, so divide them first in some external software.</sou
     <name>TnootkaQML</name>
     <message>
         <source>Analysis of exam results</source>
-        <translation type="unfinished"></translation>
+        <translation>考试结果分析</translation>
     </message>
 </context>
 <context>
@@ -2996,7 +3016,7 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>by interval</source>
         <comment>like: Transpose by interval</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">按音程</translation>
     </message>
     <message>
         <source>Limit notes to instrument scale</source>
@@ -3112,7 +3132,7 @@ But better keep them short, so divide them first in some external software.</sou
     <name>TsettingsDialog</name>
     <message>
         <source>application&apos;s settings</source>
-        <translation type="unfinished"></translation>
+        <translation>应用程序设置</translation>
     </message>
     <message>
         <source>Common</source>
@@ -3236,7 +3256,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Check in exam help %1 how to do it automatically</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Check in exam help %1 how to do it automatically</translation>
     </message>
     <message>
         <source>To correct an answer</source>
@@ -3256,7 +3276,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Change enharmonically and show on the staff</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">进行等音变换并在谱表上显示</translation>
     </message>
     <message>
         <source>Given note show on the staff</source>
@@ -3265,7 +3285,7 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>&lt;br&gt;&lt;b&gt;in %1 key.&lt;/b&gt;</source>
         <comment>in key signature</comment>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;在 %1 调中。&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Give name of</source>
@@ -3289,7 +3309,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Change enharmonically and give name of</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">进行等音变换并给出名称</translation>
     </message>
     <message>
         <source>Use another style to give name of</source>
@@ -3298,7 +3318,7 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>&lt;b&gt;in %1 key.&lt;/b&gt;</source>
         <comment>in key signature</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;b&gt;在 %1 调中。&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Show sound from position:</source>
@@ -3331,7 +3351,8 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Click incorrect notes to see&lt;br&gt;and to listen to them corrected.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">点击错误的音符，即可查看
+并聆听它们被纠正后的正确音高。</translation>
     </message>
     <message>
         <source>%1 was detected</source>
@@ -3352,7 +3373,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Application preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>程序选项</translation>
     </message>
     <message>
         <source>Level</source>
@@ -3387,7 +3408,7 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>Check</source>
         <comment>like a check answer</comment>
-        <translation type="unfinished"></translation>
+        <translation>Check</translation>
     </message>
     <message>
         <source>Play</source>
@@ -3408,7 +3429,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Analyze</source>
-        <translation type="unfinished"></translation>
+        <translation>分析</translation>
     </message>
 </context>
 <context>
@@ -3439,7 +3460,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Bass in fifths: C G D A</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">五度定弦低音：C G D A</translation>
     </message>
     <message>
         <source>5-str. bass: B E A D G</source>
@@ -3447,7 +3468,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>6-str. bass: B E A D G C</source>
-        <translation type="unfinished"></translation>
+        <translation>6弦贝斯: B E A D G C</translation>
     </message>
     <message>
         <source>Standard C: G C E A</source>
@@ -3473,14 +3494,14 @@ But better keep them short, so divide them first in some external software.</sou
     <name>TupdateChecker</name>
     <message>
         <source>Checking for updates. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>检查最新情况。 请等待.</translation>
     </message>
 </context>
 <context>
     <name>TupdateRulesWdg</name>
     <message>
         <source>check for Nootka updates</source>
-        <translation type="unfinished"></translation>
+        <translation>检查应用更新</translation>
     </message>
     <message>
         <source>daily</source>
@@ -3496,7 +3517,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>all new versions</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">所有新版本</translation>
     </message>
     <message>
         <source>stable versions only</source>
@@ -3559,7 +3580,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>All notes on the upper staff with treble clef are played with right hand and the notes on the lower one with bass clef are played with the left hand.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">上方高音谱表（带高音谱号）中的所有音符由右手演奏，下方低音谱表（带低音谱号）中的音符由左手演奏。</translation>
     </message>
     <message>
         <source>Direction of bellows movement is marked with bowing symbols:</source>
@@ -3581,7 +3602,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Both pictures above show the same note!%1(note c in one-line octave)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">上方两张图片显示的是同一个音符！%1（小字一组 C 音）</translation>
     </message>
 </context>
 <context>
@@ -3618,7 +3639,7 @@ But better keep them short, so divide them first in some external software.</sou
     <name>WizardOptions</name>
     <message>
         <source>7th note can be B or H, depends on country&lt;br&gt;What is the name of 7th note in your country?</source>
-        <translation type="unfinished"></translation>
+        <translation>第七音符可以是B或H，具体取决于国家&lt;br&gt;在你所在的国家，第七音符是哪个？</translation>
     </message>
     <message>
         <source>I know about double sharps (x) and double flats (bb)</source>
@@ -3648,7 +3669,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Although for exercise purposes and also due to Nootka is supporting only single voice, sometimes just one of the staves can be used as well.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">虽然出于练习目的，同时也因为 Nootka 仅支持单声部，有时只使用其中一个谱表也是可以的。</translation>
     </message>
 </context>
 <context>
