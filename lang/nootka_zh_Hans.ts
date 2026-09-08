@@ -495,11 +495,11 @@ Nootka 是一款开源应用程序，旨在帮助您学习和教授古典乐谱�
     <name>GlobalPage</name>
     <message>
         <source>default</source>
-        <translation type="unfinished"></translation>
+        <translation>默认值</translation>
     </message>
     <message>
         <source>enable animations</source>
-        <translation type="unfinished"></translation>
+        <translation>启用动画</translation>
     </message>
     <message>
         <source>show hints</source>
@@ -570,7 +570,7 @@ Nootka 将以首次运行向导启动。</translation>
     </message>
     <message>
         <source>Finally, tap selected note shortly.</source>
-        <translation type="unfinished"></translation>
+        <translation>最后，轻触所选音符。</translation>
     </message>
 </context>
 <context>
@@ -631,7 +631,7 @@ Nootka 将以首次运行向导启动。</translation>
     </message>
     <message>
         <source>Difference between score notation and real sound pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>音符记谱与实际音高之间的差异</translation>
     </message>
     <message>
         <source>preferred accidentals:</source>
@@ -969,11 +969,11 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>English</source>
-        <translation type="unfinished"></translation>
+        <translation>英语</translation>
     </message>
     <message>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>荷兰语</translation>
     </message>
     <message>
         <source>Russian</source>
@@ -1023,7 +1023,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>disable screen rotation</source>
-        <translation type="unfinished"></translation>
+        <translation>禁用屏幕旋转</translation>
     </message>
     <message>
         <source>full screen</source>
@@ -1444,7 +1444,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>enable pitch detection</source>
-        <translation type="unfinished"></translation>
+        <translation>启用音高检测</translation>
     </message>
     <message>
         <source>Be sure your input device (microphone, webcam, instrument, etc.) is plugged in, properly configured, and working.</source>
@@ -1535,7 +1535,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Enter your name or nick-name.</source>
-        <translation type="unfinished"></translation>
+        <translation>请输入您的姓名或昵称。</translation>
     </message>
     <message>
         <source>To start exercising or to pass new exam put in your name and select a level. To continue the previous exam, select it from the list or load from file.</source>
@@ -1574,7 +1574,7 @@ But better keep them short, so divide them first in some external software.</sou
     <name>SupportPage</name>
     <message>
         <source>Donate Nootka campaign</source>
-        <translation type="unfinished"></translation>
+        <translation>向Nootka捐赠</translation>
     </message>
     <message>
         <source>Through PayPal or a card</source>
@@ -1659,7 +1659,7 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>Donors</source>
         <comment>Would be &apos;Sponsors&apos; or even &apos;Backers&apos; - translate as such as You fill, what sounds/looks better in Your language</comment>
-        <translation type="unfinished"></translation>
+        <translation>捐赠人</translation>
     </message>
     <message>
         <source>People and companies who gave material support for the Nootka project</source>
@@ -1769,7 +1769,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Countdown before playing or listening.</source>
-        <translation type="unfinished"></translation>
+        <translation>播放或聆听之前倒计时</translation>
     </message>
     <message>
         <source>beats per minute</source>
@@ -1804,7 +1804,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Count up</source>
-        <translation type="unfinished"></translation>
+        <translation>共计</translation>
     </message>
     <message>
         <source>Detected rhythmic units are rounded (quantization). Shortest units require more rhythmical accuracy.</source>
@@ -1902,11 +1902,11 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Exercises with Nootka</source>
-        <translation type="unfinished"></translation>
+        <translation>使用Nootka练习</translation>
     </message>
     <message>
         <source>EXAM!</source>
-        <translation type="unfinished"></translation>
+        <translation>测验！</translation>
     </message>
     <message>
         <source>Psssst... Exam is going.&lt;br&gt;&lt;br&gt;Select &lt;b&gt;%1&lt;/b&gt; to check, save and exit&lt;br&gt;or &lt;b&gt;%2&lt;/b&gt; to continue.&lt;br&gt;</source>
@@ -1914,7 +1914,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Exercise or exam preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>设置练习或测验偏好</translation>
     </message>
     <message>
         <source>repeat previous question (backspace)</source>
@@ -1947,11 +1947,11 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>correct answer
 (enter)</source>
-        <translation type="unfinished"></translation>
+        <translation>答案正确</translation>
     </message>
     <message>
         <source>finish exercising</source>
-        <translation type="unfinished"></translation>
+        <translation>完成练习</translation>
     </message>
     <message>
         <source>stop the exam</source>
@@ -1982,7 +1982,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Exams can be saved to files and continued later. Moreover, exam files can be opened to analyze.</source>
-        <translation type="unfinished"></translation>
+        <translation>测验可以保存到文件中，之后继续进行。此外，还可以打开测验文件进行分析。</translation>
     </message>
     <message>
         <source>Exam will be completed when you give answers to all questions.&lt;br&gt;The number of questions depends on the level of the exam.</source>
@@ -2018,7 +2018,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Exercises</source>
-        <translation type="unfinished"></translation>
+        <translation>练习</translation>
     </message>
     <message>
         <source>If you made a mistake during an exercise, Nootka can show you correct answer. To see it:</source>
@@ -2030,7 +2030,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Exams</source>
-        <translation type="unfinished"></translation>
+        <translation>测验</translation>
     </message>
     <message>
         <source>If you made a mistake during an exam and you want to repeat the question:</source>
@@ -2054,7 +2054,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>correct mistakes (exercises only)</source>
-        <translation type="unfinished"></translation>
+        <translation>纠正错误（仅练习）</translation>
     </message>
     <message>
         <source>ask next question automatically</source>
@@ -2107,7 +2107,7 @@ But better keep them short, so divide them first in some external software.</sou
     <name>TexamSummary</name>
     <message>
         <source>Exam results</source>
-        <translation type="unfinished"></translation>
+        <translation>测验成绩</translation>
     </message>
     <message>
         <source>student:</source>
@@ -2178,7 +2178,7 @@ But better keep them short, so divide them first in some external software.</sou
     <name>TexamView</name>
     <message>
         <source>Exam results</source>
-        <translation type="unfinished"></translation>
+        <translation>测验成绩</translation>
     </message>
     <message>
         <source>Average time taken to answer</source>
@@ -2214,7 +2214,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>(counted as half of a mistake)</source>
-        <translation type="unfinished"></translation>
+        <translation>（看作错了一半）</translation>
     </message>
     <message>
         <source>Answered questions</source>
@@ -2243,7 +2243,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Exam time</source>
-        <translation type="unfinished"></translation>
+        <translation>测验时间</translation>
     </message>
     <message>
         <source>Progress of the exam</source>
@@ -2251,7 +2251,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Exam was finished</source>
-        <translation type="unfinished"></translation>
+        <translation>测验完成</translation>
     </message>
 </context>
 <context>
@@ -2277,7 +2277,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Directory named &lt;b&gt;Nootka&lt;/b&gt; will be created in&lt;br&gt;%1&lt;br&gt;Application files will be written there.</source>
-        <translation type="unfinished"></translation>
+        <translation>名为 &lt;b&gt;Nootka&lt;/b&gt; 的目录将在&lt;br&gt;%1&lt;br&gt;中创建，应用程序文件将被写入其中。</translation>
     </message>
 </context>
 <context>
@@ -2359,7 +2359,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Electric Guitar</source>
-        <translation type="unfinished"></translation>
+        <translation>电吉他</translation>
     </message>
     <message>
         <source>Bass Guitar</source>
@@ -2475,7 +2475,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Ear training</source>
-        <translation type="unfinished"></translation>
+        <translation>听音训练</translation>
     </message>
     <message>
         <source>Listen to a sound and show it on the staff.&lt;br&gt;Guitar, note names and key signatures are not used.&lt;br&gt;Scale a - a&lt;sup&gt;2&lt;/sup&gt;.</source>
@@ -3057,14 +3057,14 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>down</source>
-        <translation type="unfinished"></translation>
+        <translation>下</translation>
     </message>
 </context>
 <context>
     <name>TscoreObject</name>
     <message>
         <source>Delete note</source>
-        <translation type="unfinished"></translation>
+        <translation>删除音符</translation>
     </message>
     <message>
         <source>Insert note</source>
@@ -3072,7 +3072,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Delete all notes</source>
-        <translation type="unfinished"></translation>
+        <translation>删除所有音符</translation>
     </message>
     <message>
         <source>Edit score</source>
@@ -3104,7 +3104,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>dot</source>
-        <translation type="unfinished"></translation>
+        <translation>点</translation>
     </message>
     <message>
         <source>rise</source>
@@ -3125,7 +3125,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>for example</source>
-        <translation type="unfinished"></translation>
+        <translation>示例</translation>
     </message>
 </context>
 <context>
@@ -3152,11 +3152,11 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Exercises</source>
-        <translation type="unfinished"></translation>
+        <translation>练习</translation>
     </message>
     <message>
         <source>Exam</source>
-        <translation type="unfinished"></translation>
+        <translation>测验</translation>
     </message>
     <message>
         <source>Phone</source>
@@ -3179,7 +3179,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Exam results</source>
-        <translation type="unfinished"></translation>
+        <translation>测验成绩</translation>
     </message>
     <message>
         <source>Load an exam file</source>
@@ -3417,7 +3417,7 @@ But better keep them short, so divide them first in some external software.</sou
     <message>
         <source>Correct</source>
         <comment>like a correct answer with mistake</comment>
-        <translation type="unfinished"></translation>
+        <translation>正确</translation>
     </message>
     <message>
         <source>Try again</source>
@@ -3505,7 +3505,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>daily</source>
-        <translation type="unfinished"></translation>
+        <translation>每日</translation>
     </message>
     <message>
         <source>weekly</source>
@@ -3555,21 +3555,21 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>Drag a knob to adjust minimum input volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>拖动旋钮以调整最小输入音量。</translation>
     </message>
 </context>
 <context>
     <name>Windows installer entries</name>
     <message>
         <source>Do you really want to remove Nootka and all its components?</source>
-        <translation type="unfinished"></translation>
+        <translation>确定要删除 Nootka 及其所有组件吗？</translation>
     </message>
 </context>
 <context>
     <name>Wizard</name>
     <message>
         <source>First run wizard</source>
-        <translation type="unfinished"></translation>
+        <translation>首次运行向导</translation>
     </message>
 </context>
 <context>
@@ -3620,7 +3620,7 @@ But better keep them short, so divide them first in some external software.</sou
     </message>
     <message>
         <source>For beginners, when you don&apos;t know musical notation at all.</source>
-        <translation type="unfinished"></translation>
+        <translation>面向完全不了解乐谱的初学者</translation>
     </message>
     <message>
         <source>score without rhythms</source>
